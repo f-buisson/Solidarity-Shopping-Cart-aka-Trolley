@@ -1,108 +1,5 @@
-# 🛒 Solidarity Shopping Cart (aka Trolley) / Caddie Solidaire
-*Roulez solidaire : un caddie intelligent qui partage l’énergie entre usagers.*
+[![Sponsor](https://img.shields.io/badge/Sponsor-Fabien%20Buisson-6E56CF?style=for-the-badge)](https://github.com/sponsors/f-buisson)
 
-![Schéma conceptuel du Caddie Solidaire](images/caddie-solidaire-schema.png)
-
----
-
-## 📖 Objectif
-
-**Solidarity Shopping Cart (aka Trolley) / Caddie Solidaire** est un projet expérimental open hardware visant à transformer un simple chariot de supermarché en dispositif mécanique d’entraide :  
-➡️ **L’idée : redistribuer l’énergie mécanique accumulée par des clients légers (petites courses) pour aider les clients chargés (grosses courses).**
-
-💡 Ce projet explore les concepts suivants :
-- Énergie mécanique stockée mécaniquement (ressorts, volant d’inertie),
-- Assistance passive sans moteur ni batterie,
-- Concept d’entraide invisible et contributive : "vous chargez légèrement, vous aidez beaucoup".
-
----
-
-## ⚙️ Fonctionnement
-
-Le système repose sur trois étapes simples :
-
-1️⃣ **Accumulation d’énergie**  
-Lorsqu’un caddie est poussé avec une charge ≤ 50 kg, une résistance douce est appliquée mécaniquement (ex : frein magnétique, ressorts).  
-L’énergie fournie par le client est stockée dans un accumulateur mécanique intégré.
-
-2️⃣ **Stockage passif**  
-Un indicateur visuel (“jauge d’énergie solidaire”) montre le niveau d’énergie stockée disponible.  
-Le caddie reste prêt pour aider le prochain utilisateur.
-
-3️⃣ **Assistance à l’effort**  
-Dès que le caddie dépasse 50 kg (chargé progressivement par un autre client), l’énergie emmagasinée est restituée :  
-➡️ Moins d’effort pour pousser un caddie lourd.
-
----
-
-## 🔋 Résumé énergétique
-
-- ⚖️ **Poids moyen visé :** 50 kg
-- 🔧 **Résistance appliquée :** modérée (~20 kg simulé max)
-- 📦 **Énergie récupérée :** ~0,5–1 Wh par parcours “léger”
-- 🎯 **Objectif :** assistance partielle mais perceptible (~100–300 m aidés)
-
----
-
-## 🌍 Impact social & environnemental
-
-Ce dispositif low-tech a une vocation avant tout humaine et symbolique :  
-- 🤝 **Entraide mécanique discrète** entre utilisateurs successifs,
-- 🌱 **Valorisation de l’énergie humaine habituellement perdue, sans électricité externe,**
-- 🔧 **Approche simple et robuste**, adaptée aux environnements intensifs (hypermarchés).
-
----
-
-## 📐 Documentation technique
-
-👉 Retrouvez la documentation complète dans le dossier [`/docs`](./docs/) :
-
-- [1️⃣ Concept mécanique](./docs/1-concept-mecanique.md)
-- [2️⃣ Calculs énergétiques](./docs/2-calculs-energetiques.md)
-
----
-
-## 📜 Licence
-
-Ce projet est distribué sous **licence open hardware** pour usage non-commercial :
-- ![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)  
-  **[Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**
-
-➡️ Pour un usage commercial ou industriel, veuillez consulter [`COMMERCIAL_LICENSE.md`](./governance/COMMERCIAL_LICENSE.md).
-
----
-
-## ✍️ Contribuer
-
-🔧 **Contributions bienvenues :**
-- Retours d’expérience terrain,
-- Suggestions sur le mécanisme mécanique,
-- Tests de prototypes,
-- Schémas alternatifs.
-
-👉 Consultez [`CONTRIBUTING.md`](./CONTRIBUTING.md) pour savoir comment participer.
-
----
-
-## ⚖️ Charte éthique
-
-**Solidarity Shopping Cart (aka Trolley) / Caddie Solidaire** vise à :
-- Promouvoir l’entraide simple et concrète,
-- Respecter le confort des utilisateurs (résistance calibrée sans contrainte excessive).
-
----
-
-## 📩 Contact
-
-👤 **Auteur :** [f-buisson](https://github.com/f-buisson)  
-📧 **Email :** [contact](mailto:scgfamp@hotmail.com)  
-🕊️ **Année :** 2025
-
----
-
-*“Et si chaque pas pouvait aider celui qui viendra après ?”*
-
----
 
 # 🛒 Solidarity Shopping Cart (aka Trolley)
 *Ride together: a smart cart that shares energy between users.*
@@ -190,6 +87,20 @@ This project is released under **open hardware license for non-commercial use**:
 
 ---
 
+### 🫶 Support this project
+
+I release these projects as **open-hardware**, so anyone can study, adapt, and rebuild them freely.  
+If you'd like to help the development continue and support new prototypes:  
+👉 https://github.com/sponsors/f-buisson  
+Even a symbolic contribution helps to:
+- fund necessary materials
+- develop and test prototypes
+- cover software licensing fees (SolidWorks, etc.)
+
+Thank you for your support ✦
+
+---
+
 ## ⚖️ Ethical charter
 
 **Solidarity Shopping Cart (aka Trolley)** aims to:
@@ -207,3 +118,128 @@ This project is released under **open hardware license for non-commercial use**:
 ---
 
 *“What if every step could help the next person?”*
+
+---
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-Fabien%20Buisson-6E56CF?style=for-the-badge)](https://github.com/sponsors/f-buisson)
+
+# 🛒 Solidarity Shopping Cart (aka Trolley) / Caddie Solidaire
+*Roulez solidaire : un caddie intelligent qui partage l’énergie entre usagers.*
+
+![Schéma conceptuel du Caddie Solidaire](images/caddie-solidaire-schema.png)
+
+---
+
+## 📖 Objectif
+
+**Solidarity Shopping Cart (aka Trolley) / Caddie Solidaire** est un projet expérimental open hardware visant à transformer un simple chariot de supermarché en dispositif mécanique d’entraide :  
+➡️ **L’idée : redistribuer l’énergie mécanique accumulée par des clients légers (petites courses) pour aider les clients chargés (grosses courses).**
+
+💡 Ce projet explore les concepts suivants :
+- Énergie mécanique stockée mécaniquement (ressorts, volant d’inertie),
+- Assistance passive sans moteur ni batterie,
+- Concept d’entraide invisible et contributive : "vous chargez légèrement, vous aidez beaucoup".
+
+---
+
+## ⚙️ Fonctionnement
+
+Le système repose sur trois étapes simples :
+
+1️⃣ **Accumulation d’énergie**  
+Lorsqu’un caddie est poussé avec une charge ≤ 50 kg, une résistance douce est appliquée mécaniquement (ex : frein magnétique, ressorts).  
+L’énergie fournie par le client est stockée dans un accumulateur mécanique intégré.
+
+2️⃣ **Stockage passif**  
+Un indicateur visuel (“jauge d’énergie solidaire”) montre le niveau d’énergie stockée disponible.  
+Le caddie reste prêt pour aider le prochain utilisateur.
+
+3️⃣ **Assistance à l’effort**  
+Dès que le caddie dépasse 50 kg (chargé progressivement par un autre client), l’énergie emmagasinée est restituée :  
+➡️ Moins d’effort pour pousser un caddie lourd.
+
+---
+
+## 🔋 Résumé énergétique
+
+- ⚖️ **Poids moyen visé :** 50 kg
+- 🔧 **Résistance appliquée :** modérée (~20 kg simulé max)
+- 📦 **Énergie récupérée :** ~0,5–1 Wh par parcours “léger”
+- 🎯 **Objectif :** assistance partielle mais perceptible (~100–300 m aidés)
+
+---
+
+## 🌍 Impact social & environnemental
+
+Ce dispositif low-tech a une vocation avant tout humaine et symbolique :  
+- 🤝 **Entraide mécanique discrète** entre utilisateurs successifs,
+- 🌱 **Valorisation de l’énergie humaine habituellement perdue, sans électricité externe,**
+- 🔧 **Approche simple et robuste**, adaptée aux environnements intensifs (hypermarchés).
+
+---
+
+## 📐 Documentation technique
+
+👉 Retrouvez la documentation complète dans le dossier [`/docs`](./docs/) :
+
+- [1️⃣ Concept mécanique](./docs/1-concept-mecanique.md)
+- [2️⃣ Calculs énergétiques](./docs/2-calculs-energetiques.md)
+
+---
+
+## 📜 Licence
+
+Ce projet est distribué sous **licence open hardware** pour usage non-commercial :
+- ![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)  
+  **[Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**
+
+➡️ Pour un usage commercial ou industriel, veuillez consulter [`COMMERCIAL_LICENSE.md`](./governance/COMMERCIAL_LICENSE.md).
+
+---
+
+## ✍️ Contribuer
+
+🔧 **Contributions bienvenues :**
+- Retours d’expérience terrain,
+- Suggestions sur le mécanisme mécanique,
+- Tests de prototypes,
+- Schémas alternatifs.
+
+👉 Consultez [`CONTRIBUTING.md`](./CONTRIBUTING.md) pour savoir comment participer.
+
+---
+
+### 🫶 Soutenir ce projet
+
+Je publie ces projets en **open-hardware**, pour que chacun puisse les comprendre, les adapter et les reconstruire librement.  
+Si tu souhaites contribuer à leur évolution et à la création de nouveaux prototypes :  
+👉 https://github.com/sponsors/f-buisson  
+Chaque contribution (même symbolique) permet de :
+- financer les matériaux nécessaires
+- développer et tester les prototypes
+- couvrir les licences logicielles (SolidWorks, etc.)
+
+Merci pour ton soutien ✦
+
+---
+
+## ⚖️ Charte éthique
+
+**Solidarity Shopping Cart (aka Trolley) / Caddie Solidaire** vise à :
+- Promouvoir l’entraide simple et concrète,
+- Respecter le confort des utilisateurs (résistance calibrée sans contrainte excessive).
+
+---
+
+## 📩 Contact
+
+👤 **Auteur :** [f-buisson](https://github.com/f-buisson)  
+📧 **Email :** [contact](mailto:scgfamp@hotmail.com)  
+🕊️ **Année :** 2025
+
+---
+
+*“Et si chaque pas pouvait aider celui qui viendra après ?”*
+
+---
+
