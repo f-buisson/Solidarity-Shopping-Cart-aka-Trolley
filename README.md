@@ -1,6 +1,8 @@
 [![Sponsor](https://img.shields.io/badge/Sponsor-Fabien%20Buisson-6E56CF?style=for-the-badge)](https://github.com/sponsors/f-buisson)
 
+**Language:** [English](#english) | [Français](#francais)
 
+<a id="english"></a>
 # 🛒 Solidarity Shopping Cart (aka Trolley)
 *Ride together: a smart cart that shares energy between users.*
 
@@ -123,6 +125,7 @@ Thank you for your support ✦
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-Fabien%20Buisson-6E56CF?style=for-the-badge)](https://github.com/sponsors/f-buisson)
 
+<a id="francais"></a>
 # 🛒 Solidarity Shopping Cart (aka Trolley) / Caddie Solidaire
 *Roulez solidaire : un caddie intelligent qui partage l’énergie entre usagers.*
 
